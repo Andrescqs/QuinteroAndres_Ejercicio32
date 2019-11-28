@@ -15,6 +15,8 @@ int main(){
     float c = sqrt(T/rho);
     float c1 = c;
     float ratio = c*c/(c1*c1);
+	
+	ofstream outfile;
     
     
     float xi[101][3];
@@ -65,7 +67,7 @@ int main(){
 		}
     }   
 	
-	outfile.close();
+	
     
     
     
